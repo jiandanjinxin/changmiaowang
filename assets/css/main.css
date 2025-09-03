@@ -1,0 +1,97 @@
+.contact-info {
+    font-family: "Times New Roman", serif;
+    line-height: 1.4; /* 设置行间距 */
+    color: black;
+}
+
+.contact-info a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #d93025;
+    text-decoration: underline;
+}
+.circle-img {
+    width: 200px;            /* 控制最终图片大小 */
+    height: 200px;
+    object-fit: cover;       /* 保证图片填满容器并裁剪不变形 */
+    border-radius: 50%;      /* 实现圆形裁剪 */
+    display: block;
+    margin: 0 auto;          /* 水平居中 */
+}
+.profile-text {
+    font-family: "Times New Roman", serif;
+    line-height: 1.8;
+    color: black;
+    text-align: justify;
+}
+
+.profile-text a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.profile-text a:hover {
+    color: #d93025;
+    text-decoration: underline;
+}
+
+.image-cell {
+    width: 229px;
+    height: 232px;
+    text-align: center;
+    vertical-align: middle;
+}
+.email-link {
+    color: #1a73e8; /* 蓝色或你想要的颜色 */
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #d93025; /* 鼠标悬停时变为红色，或你自定义 */
+    text-decoration: underline;
+}
+.profile-text {
+    font-family: "Times New Roman", serif;
+    line-height: 1.8;
+    color: black;
+    text-align: justify;
+}
+.news-list {
+    line-height: 1.8; /* 行间距，可根据需要调整为 1.6 ~ 2.0 */
+    font-family: "Times New Roman", serif;
+    color: black;
+}
+
+.news-list a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.news-list a:hover {
+    color: #d93025;
+    text-decoration: underline;
+}
+.projects-list {
+    line-height: 1.8;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    color: black;
+    list-style-type: disc;
+    padding-left: 1.5em;}
+.project-period {
+    font-weight: bold;
+    color: #1a73e8; /* 蓝色 */
+}
+
+.project-fund {
+    font-weight: bold;
+    color: #1a73e8; /* 蓝色 */
+}
+
+.project-status {
+    font-weight: bold;
+    color: #d93025; /* 红色（可改为绿色 #188038 表示“在研”） */
+}
