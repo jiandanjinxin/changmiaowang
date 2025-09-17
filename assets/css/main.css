@@ -95,3 +95,53 @@
     font-weight: bold;
     color: #d93025; /* 红色（可改为绿色 #188038 表示“在研”） */
 }
+.link-btn {
+    color:  #1a73e8;
+    text-decoration: none;
+}
+.link-btn.clicked {
+    color: gray;
+    font-style: italic;
+}
+/* 2025年期刊样式：淡蓝背景 */
+.journal-2025 {
+    background-color: #F0F8FF;  /* 淡蓝 */
+    padding: 10px;
+}
+
+/* 2025年会议样式：淡绿背景 */
+.conf-2025 {
+    background-color: #F5FFF0;  /* 淡绿 */
+    padding: 10px;
+}
+
+/* 仅作用于本段，去掉底色，改用字体着色 */
+.honors-list .keyword{
+    color:  #1a73e8;              /* 深蓝色 */
+    font-weight: 700;
+    background: transparent !important; /* 覆盖之前的淡蓝底 */
+    padding: 0 !important;
+
+}
+/* Professionals 列表仅用字体着色，不用底色高亮 */
+.pro-list .keyword{
+    color:  #1a73e8;               /* 深蓝色 */
+    font-weight: 700;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+ .pub-stats{
+     font-family:'Times New Roman', serif;
+     font-weight:700;
+     line-height:1.5;
+     margin:8px 0 12px;
+     letter-spacing:0.2px;
+     /* 不设置 font-size，交给 <font size="4"> 控制 */
+ }
+.pub-stats .venue{ font-weight:700; }
+.pub-stats .award{ font-weight:700; }
+
+
+
